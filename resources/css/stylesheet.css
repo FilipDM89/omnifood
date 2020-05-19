@@ -52,7 +52,7 @@ h1 {
 }
 
 .btn-full:link,
-.btn-full,:visited {
+.btn-full:visited {
     background-color: #e67e22;
     border: 1px solid #e67e22;
     color: #fff;
@@ -71,7 +71,7 @@ h1 {
 }
 
 .btn-full:hover,
-.btn-full,:active {
+.btn-full:active {
     background-color: #bf6516;
     border: 1px solid #bf6516;
     color: #fff;
@@ -135,4 +135,8 @@ header {
 .main-nav li a:hover,
 .main-nav li a:active {
     border-bottom: 2px solid #e67e22;
+}
+
+.section-features {
+    height: 100vh;
 }
